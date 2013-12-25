@@ -1,5 +1,5 @@
 #include "AppDelegate.h"
-#include "HelloWorldScene.h"
+#include "TestMutipleRowsInput.h"
 
 USING_NS_CC;
 
@@ -25,8 +25,13 @@ bool AppDelegate::applicationDidFinishLaunching() {
     pDirector->setAnimationInterval(1.0 / 60);
 
     // create a scene. it's an autorelease object
-    CCScene *pScene = HelloWorld::scene();
-
+    CCScene *pScene = CCScene::create();
+	TestMutipleRowsInput* inputLayer = new TestMutipleRowsInput();
+	inputLayer->init();
+	inputLayer->setPosition(ccp(0,0));
+	
+	pScene->addChild(inputLayer);
+	
     // run
     pDirector->runWithScene(pScene);
 
