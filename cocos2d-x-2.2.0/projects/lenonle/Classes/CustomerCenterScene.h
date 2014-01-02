@@ -19,6 +19,9 @@ protected:
     // hotel center callback
     void hotelCenterBtnCallBack(CCObject* pSender);
     
+    // jifenshangcheng callback
+    void jifenshangcBtnCallBack(CCObject* pSender);
+    
     // implement the "static node()" method manually
     CREATE_FUNC(CustomerCenter);
 };
