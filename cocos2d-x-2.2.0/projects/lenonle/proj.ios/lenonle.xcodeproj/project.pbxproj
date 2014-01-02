@@ -231,6 +231,9 @@
 		379BB9D417F03F3700829B88 /* CCSSceneReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB99317F03F3700829B88 /* CCSSceneReader.cpp */; };
 		84451F57186A80C000E33A2D /* TestMutipleRowsInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84451F55186A80C000E33A2D /* TestMutipleRowsInput.cpp */; };
 		84451F59186A81E500E33A2D /* lenonle res in Resources */ = {isa = PBXBuildFile; fileRef = 84451F58186A81E500E33A2D /* lenonle res */; };
+		84A79C031875084900E5D22F /* CustomerCenterScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A79BFD1875084900E5D22F /* CustomerCenterScene.cpp */; };
+		84A79C041875084900E5D22F /* HotelCenterScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A79BFF1875084900E5D22F /* HotelCenterScene.cpp */; };
+		84A79C051875084900E5D22F /* MainViewScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A79C011875084900E5D22F /* MainViewScene.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -717,6 +720,12 @@
 		84451F55186A80C000E33A2D /* TestMutipleRowsInput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TestMutipleRowsInput.cpp; path = ../Classes/TestMutipleRowsInput.cpp; sourceTree = "<group>"; };
 		84451F56186A80C000E33A2D /* TestMutipleRowsInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestMutipleRowsInput.h; path = ../Classes/TestMutipleRowsInput.h; sourceTree = "<group>"; };
 		84451F58186A81E500E33A2D /* lenonle res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "lenonle res"; sourceTree = "<group>"; };
+		84A79BFD1875084900E5D22F /* CustomerCenterScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CustomerCenterScene.cpp; path = ../Classes/CustomerCenterScene.cpp; sourceTree = "<group>"; };
+		84A79BFE1875084900E5D22F /* CustomerCenterScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomerCenterScene.h; path = ../Classes/CustomerCenterScene.h; sourceTree = "<group>"; };
+		84A79BFF1875084900E5D22F /* HotelCenterScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HotelCenterScene.cpp; path = ../Classes/HotelCenterScene.cpp; sourceTree = "<group>"; };
+		84A79C001875084900E5D22F /* HotelCenterScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HotelCenterScene.h; path = ../Classes/HotelCenterScene.h; sourceTree = "<group>"; };
+		84A79C011875084900E5D22F /* MainViewScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainViewScene.cpp; path = ../Classes/MainViewScene.cpp; sourceTree = "<group>"; };
+		84A79C021875084900E5D22F /* MainViewScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewScene.h; path = ../Classes/MainViewScene.h; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB212928DE900B8313A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -1243,6 +1252,12 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				84A79BFD1875084900E5D22F /* CustomerCenterScene.cpp */,
+				84A79BFE1875084900E5D22F /* CustomerCenterScene.h */,
+				84A79BFF1875084900E5D22F /* HotelCenterScene.cpp */,
+				84A79C001875084900E5D22F /* HotelCenterScene.h */,
+				84A79C011875084900E5D22F /* MainViewScene.cpp */,
+				84A79C021875084900E5D22F /* MainViewScene.h */,
 				84451F55186A80C000E33A2D /* TestMutipleRowsInput.cpp */,
 				84451F56186A80C000E33A2D /* TestMutipleRowsInput.h */,
 				1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */,
@@ -1800,6 +1815,7 @@
 				15A3D90E1682F7D5002FB0C5 /* b2Settings.cpp in Sources */,
 				15A3D90F1682F7D5002FB0C5 /* b2StackAllocator.cpp in Sources */,
 				15A3D9101682F7D5002FB0C5 /* b2Timer.cpp in Sources */,
+				84A79C031875084900E5D22F /* CustomerCenterScene.cpp in Sources */,
 				15A3D9111682F7D5002FB0C5 /* b2Body.cpp in Sources */,
 				15A3D9121682F7D5002FB0C5 /* b2ContactManager.cpp in Sources */,
 				15A3D9131682F7D5002FB0C5 /* b2Fixture.cpp in Sources */,
@@ -1861,6 +1877,7 @@
 				15A3DA331682F826002FB0C5 /* CCBKeyframe.cpp in Sources */,
 				15A3DA341682F826002FB0C5 /* CCBReader.cpp in Sources */,
 				15A3DA351682F826002FB0C5 /* CCBSequence.cpp in Sources */,
+				84A79C041875084900E5D22F /* HotelCenterScene.cpp in Sources */,
 				15A3DA361682F826002FB0C5 /* CCBSequenceProperty.cpp in Sources */,
 				15A3DA371682F826002FB0C5 /* CCBValue.cpp in Sources */,
 				15A3DA381682F826002FB0C5 /* CCControlButtonLoader.cpp in Sources */,
@@ -1900,6 +1917,7 @@
 				15A3DA5C1682F826002FB0C5 /* CCTableViewCell.cpp in Sources */,
 				15A3DA5D1682F826002FB0C5 /* HttpClient.cpp in Sources */,
 				15A3DA5E1682F826002FB0C5 /* CCPhysicsDebugNode.cpp in Sources */,
+				84A79C051875084900E5D22F /* MainViewScene.cpp in Sources */,
 				15A3DA5F1682F826002FB0C5 /* CCPhysicsSprite.cpp in Sources */,
 				15A3DAEB1682F8A6002FB0C5 /* CDAudioManager.m in Sources */,
 				15A3DAEC1682F8A6002FB0C5 /* CDOpenALSupport.m in Sources */,
