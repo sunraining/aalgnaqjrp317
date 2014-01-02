@@ -1,5 +1,4 @@
 #include "MainViewScene.h"
-#include "CocosGUI.h"
 
 #include "CustomerCenterScene.h"
 #include "HotelCenterScene.h"

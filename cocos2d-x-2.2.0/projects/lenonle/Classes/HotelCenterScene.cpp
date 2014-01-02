@@ -1,5 +1,4 @@
 #include "HotelCenterScene.h"
-#include "CocosGUI.h"
 
 using namespace cocos2d::extension;
 

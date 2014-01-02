@@ -1,5 +1,4 @@
 #include "JifenshangcScene.h"
-#include "CocosGUI.h"
 
 #include "CustomerCenterScene.h"
 
