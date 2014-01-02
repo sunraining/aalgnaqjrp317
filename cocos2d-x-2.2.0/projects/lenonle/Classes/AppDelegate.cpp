@@ -29,7 +29,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	MainView* mainViewScene = new MainView();
 	mainViewScene->init();
 	
-    CCEGLView::sharedOpenGLView()->setDesignResolutionSize(designSize.width, designSize.height, kResolutionNoBorder);
+    CCEGLView::sharedOpenGLView()->setDesignResolutionSize(designSize.width, designSize.height, kResolutionExactFit);
 
     // run
     pDirector->runWithScene(mainViewScene);
