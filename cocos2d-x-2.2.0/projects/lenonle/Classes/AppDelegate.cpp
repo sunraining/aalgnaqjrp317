@@ -25,11 +25,11 @@ bool AppDelegate::applicationDidFinishLaunching() {
     CCSize screenSize = CCEGLView::sharedOpenGLView()->getFrameSize();
     CCSize designSize = CCSizeMake(640.0f, 960.0f);
     
-    CCEGLView::sharedOpenGLView()->setDesignResolutionSize(designSize.width, designSize.height, kResolutionShowAll);
-
     // create a scene. it's an autorelease object
 	MainView* mainViewScene = new MainView();
 	mainViewScene->init();
+	
+    CCEGLView::sharedOpenGLView()->setDesignResolutionSize(designSize.width, designSize.height, kResolutionNoBorder);
 
     // run
     pDirector->runWithScene(mainViewScene);
