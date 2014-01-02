@@ -240,6 +240,7 @@
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
 		C26F033F1875476600375C53 /* JifenshangcScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C26F033D1875476600375C53 /* JifenshangcScene.cpp */; };
+		D249323618759B1100F6659D /* images in Resources */ = {isa = PBXBuildFile; fileRef = D249323518759B1100F6659D /* images */; };
 		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
 		D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620D132DFF430009C878 /* AVFoundation.framework */; };
 		D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
@@ -735,6 +736,7 @@
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C26F033D1875476600375C53 /* JifenshangcScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = JifenshangcScene.cpp; path = ../Classes/JifenshangcScene.cpp; sourceTree = "<group>"; };
 		C26F033E1875476600375C53 /* JifenshangcScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JifenshangcScene.h; path = ../Classes/JifenshangcScene.h; sourceTree = "<group>"; };
+		D249323518759B1100F6659D /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		D44C620B132DFF330009C878 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		D44C620D132DFF430009C878 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D44C620F132DFF4E0009C878 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -1713,6 +1715,7 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D249323518759B1100F6659D /* images */,
 				84A79C07187509BB00E5D22F /* cocosgui */,
 				84A79C0A187509BB00E5D22F /* test resources */,
 			);
@@ -1793,6 +1796,7 @@
 				379BB9CC17F03F3700829B88 /* json_internalarray.inl in Resources */,
 				379BB9CD17F03F3700829B88 /* json_internalmap.inl in Resources */,
 				379BB9D017F03F3700829B88 /* json_valueiterator.inl in Resources */,
+				D249323618759B1100F6659D /* images in Resources */,
 				84A79C0C187509BB00E5D22F /* cocosgui in Resources */,
 				379BB9D217F03F3700829B88 /* sconscript in Resources */,
 				84A79C0F187509BB00E5D22F /* test resources in Resources */,
