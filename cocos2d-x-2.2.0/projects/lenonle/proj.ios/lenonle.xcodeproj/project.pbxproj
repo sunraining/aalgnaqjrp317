@@ -230,10 +230,14 @@
 		379BB9D317F03F3700829B88 /* CCSGUIReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB99117F03F3700829B88 /* CCSGUIReader.cpp */; };
 		379BB9D417F03F3700829B88 /* CCSSceneReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB99317F03F3700829B88 /* CCSSceneReader.cpp */; };
 		84451F57186A80C000E33A2D /* TestMutipleRowsInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84451F55186A80C000E33A2D /* TestMutipleRowsInput.cpp */; };
-		84451F59186A81E500E33A2D /* lenonle res in Resources */ = {isa = PBXBuildFile; fileRef = 84451F58186A81E500E33A2D /* lenonle res */; };
 		84A79C031875084900E5D22F /* CustomerCenterScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A79BFD1875084900E5D22F /* CustomerCenterScene.cpp */; };
 		84A79C041875084900E5D22F /* HotelCenterScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A79BFF1875084900E5D22F /* HotelCenterScene.cpp */; };
 		84A79C051875084900E5D22F /* MainViewScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A79C011875084900E5D22F /* MainViewScene.cpp */; };
+		84A79C0B187509BB00E5D22F /* audio in Resources */ = {isa = PBXBuildFile; fileRef = 84A79C06187509BB00E5D22F /* audio */; };
+		84A79C0C187509BB00E5D22F /* cocosgui in Resources */ = {isa = PBXBuildFile; fileRef = 84A79C07187509BB00E5D22F /* cocosgui */; };
+		84A79C0D187509BB00E5D22F /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 84A79C08187509BB00E5D22F /* fonts */; };
+		84A79C0E187509BB00E5D22F /* pictures in Resources */ = {isa = PBXBuildFile; fileRef = 84A79C09187509BB00E5D22F /* pictures */; };
+		84A79C0F187509BB00E5D22F /* test resources in Resources */ = {isa = PBXBuildFile; fileRef = 84A79C0A187509BB00E5D22F /* test resources */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712461292920000B8313A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB212928DE900B8313A /* libxml2.dylib */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
@@ -719,13 +723,17 @@
 		379BB99417F03F3700829B88 /* CCSSceneReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSSceneReader.h; sourceTree = "<group>"; };
 		84451F55186A80C000E33A2D /* TestMutipleRowsInput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TestMutipleRowsInput.cpp; path = ../Classes/TestMutipleRowsInput.cpp; sourceTree = "<group>"; };
 		84451F56186A80C000E33A2D /* TestMutipleRowsInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestMutipleRowsInput.h; path = ../Classes/TestMutipleRowsInput.h; sourceTree = "<group>"; };
-		84451F58186A81E500E33A2D /* lenonle res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "lenonle res"; sourceTree = "<group>"; };
 		84A79BFD1875084900E5D22F /* CustomerCenterScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CustomerCenterScene.cpp; path = ../Classes/CustomerCenterScene.cpp; sourceTree = "<group>"; };
 		84A79BFE1875084900E5D22F /* CustomerCenterScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomerCenterScene.h; path = ../Classes/CustomerCenterScene.h; sourceTree = "<group>"; };
 		84A79BFF1875084900E5D22F /* HotelCenterScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HotelCenterScene.cpp; path = ../Classes/HotelCenterScene.cpp; sourceTree = "<group>"; };
 		84A79C001875084900E5D22F /* HotelCenterScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HotelCenterScene.h; path = ../Classes/HotelCenterScene.h; sourceTree = "<group>"; };
 		84A79C011875084900E5D22F /* MainViewScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainViewScene.cpp; path = ../Classes/MainViewScene.cpp; sourceTree = "<group>"; };
 		84A79C021875084900E5D22F /* MainViewScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewScene.h; path = ../Classes/MainViewScene.h; sourceTree = "<group>"; };
+		84A79C06187509BB00E5D22F /* audio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = audio; sourceTree = "<group>"; };
+		84A79C07187509BB00E5D22F /* cocosgui */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cocosgui; sourceTree = "<group>"; };
+		84A79C08187509BB00E5D22F /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		84A79C09187509BB00E5D22F /* pictures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pictures; sourceTree = "<group>"; };
+		84A79C0A187509BB00E5D22F /* test resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "test resources"; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB212928DE900B8313A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
@@ -1706,7 +1714,11 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				84451F58186A81E500E33A2D /* lenonle res */,
+				84A79C06187509BB00E5D22F /* audio */,
+				84A79C07187509BB00E5D22F /* cocosgui */,
+				84A79C08187509BB00E5D22F /* fonts */,
+				84A79C09187509BB00E5D22F /* pictures */,
+				84A79C0A187509BB00E5D22F /* test resources */,
 			);
 			name = Resources;
 			path = ../Resources;
@@ -1783,10 +1795,14 @@
 			files = (
 				15A3D9961682F7F9002FB0C5 /* CMakeLists.txt in Resources */,
 				379BB9CC17F03F3700829B88 /* json_internalarray.inl in Resources */,
+				84A79C0E187509BB00E5D22F /* pictures in Resources */,
 				379BB9CD17F03F3700829B88 /* json_internalmap.inl in Resources */,
+				84A79C0B187509BB00E5D22F /* audio in Resources */,
 				379BB9D017F03F3700829B88 /* json_valueiterator.inl in Resources */,
+				84A79C0C187509BB00E5D22F /* cocosgui in Resources */,
 				379BB9D217F03F3700829B88 /* sconscript in Resources */,
-				84451F59186A81E500E33A2D /* lenonle res in Resources */,
+				84A79C0D187509BB00E5D22F /* fonts in Resources */,
+				84A79C0F187509BB00E5D22F /* test resources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

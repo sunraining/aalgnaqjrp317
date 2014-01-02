@@ -1,5 +1,6 @@
 #include "AppDelegate.h"
 #include "TestMutipleRowsInput.h"
+#include "MainViewScene.h"
 
 USING_NS_CC;
 
@@ -21,19 +22,17 @@ bool AppDelegate::applicationDidFinishLaunching() {
     // turn on display FPS
     pDirector->setDisplayStats(true);
 
-    // set FPS. the default value is 1.0/60 if you don't call this
-    pDirector->setAnimationInterval(1.0 / 60);
+    CCSize screenSize = CCEGLView::sharedOpenGLView()->getFrameSize();
+    CCSize designSize = CCSizeMake(640.0f, 960.0f);
+    
+    CCEGLView::sharedOpenGLView()->setDesignResolutionSize(designSize.width, designSize.height, kResolutionShowAll);
 
     // create a scene. it's an autorelease object
-    CCScene *pScene = CCScene::create();
-	TestMutipleRowsInput* inputLayer = new TestMutipleRowsInput();
-	inputLayer->init();
-	inputLayer->setPosition(ccp(0,0));
-	
-	pScene->addChild(inputLayer);
-	
+	MainView* mainViewScene = new MainView();
+	mainViewScene->init();
+
     // run
-    pDirector->runWithScene(pScene);
+    pDirector->runWithScene(mainViewScene);
 
     return true;
 }

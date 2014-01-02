@@ -7,14 +7,11 @@
 USING_NS_CC;
 USING_NS_CC_EXT;
 
-class CustomerCenter : public cocos2d::CCLayer
+class CustomerCenter : public cocos2d::CCScene
 {
 public:
     // Here's a difference. Method 'init' in cocos2d-x returns bool, instead of returning 'id' in cocos2d-iphone
     virtual bool init();
-    
-    // there's no 'id' in cpp, so we recommend returning the class instance pointer
-    static cocos2d::CCScene* scene();
     
 protected:
     UILayer* m_pUILayer;
