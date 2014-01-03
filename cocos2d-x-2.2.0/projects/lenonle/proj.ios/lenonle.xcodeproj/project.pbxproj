@@ -157,10 +157,8 @@
 		1A8F3B82175E05DA00049216 /* spine-cocos2dx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F3B6B175E05DA00049216 /* spine-cocos2dx.cpp */; };
 		1A9CE8781765A12C000E3062 /* AssetsManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A9CE8221765A12C000E3062 /* AssetsManager.cpp */; };
 		1AB87035175E0A84005D39BF /* WebSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AB87033175E0A84005D39BF /* WebSocket.cpp */; };
-		1AB8703C175E0A92005D39BF /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB8703B175E0A92005D39BF /* libwebsockets.a */; };
 		1AC3624916D4A1E8000847F2 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3624316D4A1E8000847F2 /* AppController.mm */; };
 		1AC3624B16D4A1E8000847F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC3624516D4A1E8000847F2 /* main.m */; };
-		1ACB3244164770DE00914215 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACB3243164770DE00914215 /* libcurl.a */; };
 		1AFAF8B716D35DE700DB1158 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */; };
 		1AFCDA8216D4A25900906EA6 /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCDA8116D4A25900906EA6 /* RootViewController.mm */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -230,6 +228,8 @@
 		379BB9D317F03F3700829B88 /* CCSGUIReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB99117F03F3700829B88 /* CCSGUIReader.cpp */; };
 		379BB9D417F03F3700829B88 /* CCSSceneReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB99317F03F3700829B88 /* CCSSceneReader.cpp */; };
 		84451F57186A80C000E33A2D /* TestMutipleRowsInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84451F55186A80C000E33A2D /* TestMutipleRowsInput.cpp */; };
+		8464A5151876B2A0005B590A /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8464A5141876B2A0005B590A /* libcurl.a */; };
+		8464A5161876B484005B590A /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB8703B175E0A92005D39BF /* libwebsockets.a */; };
 		84A79C031875084900E5D22F /* CustomerCenterScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A79BFD1875084900E5D22F /* CustomerCenterScene.cpp */; };
 		84A79C041875084900E5D22F /* HotelCenterScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A79BFF1875084900E5D22F /* HotelCenterScene.cpp */; };
 		84A79C051875084900E5D22F /* MainViewScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A79C011875084900E5D22F /* MainViewScene.cpp */; };
@@ -579,7 +579,6 @@
 		1AC3624316D4A1E8000847F2 /* AppController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppController.mm; sourceTree = SOURCE_ROOT; };
 		1AC3624516D4A1E8000847F2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
 		1AC3624616D4A1E8000847F2 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = SOURCE_ROOT; };
-		1ACB3243164770DE00914215 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
 		1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = ../Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		1AFAF8B416D35DE700DB1158 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../Classes/AppDelegate.h; sourceTree = "<group>"; };
 		1AFCDA8016D4A25900906EA6 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = SOURCE_ROOT; };
@@ -722,6 +721,7 @@
 		379BB99417F03F3700829B88 /* CCSSceneReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSSceneReader.h; sourceTree = "<group>"; };
 		84451F55186A80C000E33A2D /* TestMutipleRowsInput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TestMutipleRowsInput.cpp; path = ../Classes/TestMutipleRowsInput.cpp; sourceTree = "<group>"; };
 		84451F56186A80C000E33A2D /* TestMutipleRowsInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestMutipleRowsInput.h; path = ../Classes/TestMutipleRowsInput.h; sourceTree = "<group>"; };
+		8464A5141876B2A0005B590A /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
 		84A79BFD1875084900E5D22F /* CustomerCenterScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CustomerCenterScene.cpp; path = ../Classes/CustomerCenterScene.cpp; sourceTree = "<group>"; };
 		84A79BFE1875084900E5D22F /* CustomerCenterScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomerCenterScene.h; path = ../Classes/CustomerCenterScene.h; sourceTree = "<group>"; };
 		84A79BFF1875084900E5D22F /* HotelCenterScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HotelCenterScene.cpp; path = ../Classes/HotelCenterScene.cpp; sourceTree = "<group>"; };
@@ -748,8 +748,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8464A5161876B484005B590A /* libwebsockets.a in Frameworks */,
+				8464A5151876B2A0005B590A /* libcurl.a in Frameworks */,
 				15A3DA6A1682F886002FB0C5 /* libcocos2dx.a in Frameworks */,
-				1ACB3244164770DE00914215 /* libcurl.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
@@ -760,7 +761,6 @@
 				D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */,
 				D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */,
 				D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */,
-				1AB8703C175E0A92005D39BF /* libwebsockets.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1398,7 +1398,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1ACB3243164770DE00914215 /* libcurl.a */,
+				8464A5141876B2A0005B590A /* libcurl.a */,
 				BF170DB212928DE900B8313A /* libxml2.dylib */,
 				BF170DB412928DE900B8313A /* libz.dylib */,
 				D44C620F132DFF4E0009C878 /* AudioToolbox.framework */,
@@ -2076,8 +2076,10 @@
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../../../cocos2dx/platform/third_party/ios/libraries\"",
-					"\"$(SRCROOT)/../../../external/libwebsockets/ios/lib\"",
+					"\\\"$(SRCROOT)/../../../cocos2dx/platform/third_party/ios/libraries\\\"",
+					"\\\"$(SRCROOT)/../../../external/libwebsockets/ios/lib\\\"",
+					"/Users/admin/Desktop/github/aalgnaqjrp317/cocos2d-x-2.2.0/cocos2dx/platform/third_party/ios/libraries",
+					"/Users/admin/Desktop/github/aalgnaqjrp317/cocos2d-x-2.2.0/external/libwebsockets/ios/lib",
 				);
 				OTHER_CFLAGS = "-O2";
 				PRODUCT_NAME = lenonle;
@@ -2124,8 +2126,10 @@
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../../../cocos2dx/platform/third_party/ios/libraries\"",
-					"\"$(SRCROOT)/../../../external/libwebsockets/ios/lib\"",
+					"\\\"$(SRCROOT)/../../../cocos2dx/platform/third_party/ios/libraries\\\"",
+					"\\\"$(SRCROOT)/../../../external/libwebsockets/ios/lib\\\"",
+					"/Users/admin/Desktop/github/aalgnaqjrp317/cocos2d-x-2.2.0/cocos2dx/platform/third_party/ios/libraries",
+					"/Users/admin/Desktop/github/aalgnaqjrp317/cocos2d-x-2.2.0/external/libwebsockets/ios/lib",
 				);
 				PRODUCT_NAME = lenonle;
 				PROVISIONING_PROFILE = "";
