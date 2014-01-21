@@ -228,8 +228,6 @@
 		379BB9D317F03F3700829B88 /* CCSGUIReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB99117F03F3700829B88 /* CCSGUIReader.cpp */; };
 		379BB9D417F03F3700829B88 /* CCSSceneReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 379BB99317F03F3700829B88 /* CCSSceneReader.cpp */; };
 		84451F57186A80C000E33A2D /* TestMutipleRowsInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84451F55186A80C000E33A2D /* TestMutipleRowsInput.cpp */; };
-		8464A5151876B2A0005B590A /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8464A5141876B2A0005B590A /* libcurl.a */; };
-		8464A5161876B484005B590A /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB8703B175E0A92005D39BF /* libwebsockets.a */; };
 		84A79C031875084900E5D22F /* CustomerCenterScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A79BFD1875084900E5D22F /* CustomerCenterScene.cpp */; };
 		84A79C041875084900E5D22F /* HotelCenterScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A79BFF1875084900E5D22F /* HotelCenterScene.cpp */; };
 		84A79C051875084900E5D22F /* MainViewScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A79C011875084900E5D22F /* MainViewScene.cpp */; };
@@ -240,6 +238,8 @@
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
 		C26F033F1875476600375C53 /* JifenshangcScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C26F033D1875476600375C53 /* JifenshangcScene.cpp */; };
+		C29BFE85188CBED5000D3698 /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB8703B175E0A92005D39BF /* libwebsockets.a */; };
+		C29BFE86188CBF79000D3698 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8464A5141876B2A0005B590A /* libcurl.a */; };
 		D249323618759B1100F6659D /* images in Resources */ = {isa = PBXBuildFile; fileRef = D249323518759B1100F6659D /* images */; };
 		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
 		D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620D132DFF430009C878 /* AVFoundation.framework */; };
@@ -748,8 +748,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8464A5161876B484005B590A /* libwebsockets.a in Frameworks */,
-				8464A5151876B2A0005B590A /* libcurl.a in Frameworks */,
+				C29BFE86188CBF79000D3698 /* libcurl.a in Frameworks */,
+				C29BFE85188CBED5000D3698 /* libwebsockets.a in Frameworks */,
 				15A3DA6A1682F886002FB0C5 /* libcocos2dx.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
@@ -2076,10 +2076,12 @@
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
-					"\\\"$(SRCROOT)/../../../cocos2dx/platform/third_party/ios/libraries\\\"",
-					"\\\"$(SRCROOT)/../../../external/libwebsockets/ios/lib\\\"",
+					"\\\\\\\"$(SRCROOT)/../../../cocos2dx/platform/third_party/ios/libraries\\\\\\\"",
+					"\\\\\\\"$(SRCROOT)/../../../external/libwebsockets/ios/lib\\\\\\\"",
 					"/Users/admin/Desktop/github/aalgnaqjrp317/cocos2d-x-2.2.0/cocos2dx/platform/third_party/ios/libraries",
 					"/Users/admin/Desktop/github/aalgnaqjrp317/cocos2d-x-2.2.0/external/libwebsockets/ios/lib",
+					"/Users/thinktec/GitProjs/aalgnaqjrp317/cocos2d-x-2.2.0/external/libwebsockets/ios/lib",
+					"/Users/thinktec/GitProjs/aalgnaqjrp317/cocos2d-x-2.2.0/cocos2dx/platform/third_party/ios/libraries",
 				);
 				OTHER_CFLAGS = "-O2";
 				PRODUCT_NAME = lenonle;
@@ -2126,10 +2128,12 @@
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				LIBRARY_SEARCH_PATHS = (
-					"\\\"$(SRCROOT)/../../../cocos2dx/platform/third_party/ios/libraries\\\"",
-					"\\\"$(SRCROOT)/../../../external/libwebsockets/ios/lib\\\"",
+					"\\\\\\\"$(SRCROOT)/../../../cocos2dx/platform/third_party/ios/libraries\\\\\\\"",
+					"\\\\\\\"$(SRCROOT)/../../../external/libwebsockets/ios/lib\\\\\\\"",
 					"/Users/admin/Desktop/github/aalgnaqjrp317/cocos2d-x-2.2.0/cocos2dx/platform/third_party/ios/libraries",
 					"/Users/admin/Desktop/github/aalgnaqjrp317/cocos2d-x-2.2.0/external/libwebsockets/ios/lib",
+					"/Users/thinktec/GitProjs/aalgnaqjrp317/cocos2d-x-2.2.0/external/libwebsockets/ios/lib",
+					"/Users/thinktec/GitProjs/aalgnaqjrp317/cocos2d-x-2.2.0/cocos2dx/platform/third_party/ios/libraries",
 				);
 				PRODUCT_NAME = lenonle;
 				PROVISIONING_PROFILE = "";
