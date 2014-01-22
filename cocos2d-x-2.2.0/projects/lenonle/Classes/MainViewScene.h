@@ -22,6 +22,8 @@ protected:
     // customer center callback
     void customerCenterBtnCallBack(CCObject* pSender);
     
+    void onGetFinished(CCNode *node,void *data);
+    
     // implement the "static node()" method manually
     CREATE_FUNC(MainView);
 };
